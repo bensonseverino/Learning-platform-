@@ -6,6 +6,7 @@ import "./App.css";
 // import Counter from "./components/Counter";
 // import { Navbar } from "./components/Navbar";
 import Hero from "./components/Hero/Hero";
+import Services from "./components/Services/Services";
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
       <main className="overflow-x-hidden bg-white text-dark">
         {/* <Navbar /> */}
         <Hero />
+        <Services />
       </main>
     );
   }
