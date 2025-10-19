@@ -7,6 +7,7 @@ import "./App.css";
 // import { Navbar } from "./components/Navbar";
 import Hero from "./components/Hero/Hero";
 import Services from "./components/Services/Services";
+import Banner from "./components/Banner/Banner";
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         {/* <Navbar /> */}
         <Hero />
         <Services />
+        <Banner />
       </main>
     );
   }
